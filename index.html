@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1,
+    h2 {
+        font-family: "Raleway", sans-serif
+    }
+
+    body,
+    html {
+        height: 100%
+    }
+
+    p {
+        line-height: 2
+    }
+
+    .bgimg,
+    .bgimg2 {
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+        opacity:70%
+    }
+
+    .bgimg {
+        background-image: url("https://www.imperialpalacebanquethall.com/wp-content/uploads/2020/02/indian-wedding-reception.jpg")
+    }
+
+    .bgimg2 {
+        background-image: url("https://www.dreamingloud.com/wp-content/uploads/2019/03/Meaning-behind-Indian-wedding-rituals-Kanyadan.jpg")
+    }
+    .flex{
+        display:flex;
+        flex-direction:row;
+        
+    }
+    .image{
+        
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+   
+    border-radius: 30px;
+    
+}
+ img
+{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+ 
+}   
+
+</style>
+
+<body>
+
+    <!-- Header / Home-->
+    <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+        <div class="w3-display-middle w3-text-black  w3-center">
+            <h1 class="w3-jumbo">Chitti & Vicky</h1>
+            <h2>Are getting married</h2>
+            <h2><b>08.10.2021</b></h2>
+        </div>
+    </header>
+
+    <!-- Navbar (sticky bottom) -->
+    <div class="w3-bottom w3-hide-small">
+        <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+            <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+            <a href="#us" style="width:25%" class="w3-bar-item w3-button">Chitti & Vicky</a>
+            <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+            <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+        </div>
+    </div>
+
+   
+    <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+        <div class="w3-content">
+            <h1 class="w3-center w3-text-grey"><b>Chitti & Vicky</b></h1>
+            <img class="w3-round w3-grayscale-min" src="https://imgk.timesnownews.com/story/Saath_Phere_significance.jpg?tr=w-1200,h-900" style="width:100%;margin:32px 0">
+            
+            <p class="w3-center"><a href="#wedding"
+                    class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a></p>
+        </div>
+    </div>
+
+    <!-- Background photo -->
+    <div class="w3-display-container bgimg2">
+        <div class="w3-display-middle w3-text-white w3-center">
+            <h1 class="w3-jumbo">You Are Invited</h1><br>
+            <h2>Of course..</h2>
+        </div>
+    </div>
+
+    <!-- Wedding information -->
+    <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+        <div class="w3-content">
+            <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+            <img class="w3-round-large " src="https://i.pinimg.com/originals/a1/7d/94/a17d94dd3786e5ebdb1b9ac7d1830d2a.jpg" style="width:100%;margin:64px 0 ">
+           
+        </div>
+    </div>
+
+      <!-- Reception -->
+    <div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" 
+        <div class="w3-content">
+            <h1 class="w3-text-grey"><b>THE Reception</b></h1>
+             <div class="flex">
+        <div class="image" >
+           <img class="img" src="windsor-Gardens.jpg" alt="image">
+          
+          
+         
+        </div>
+        <div class="image">
+            <img style="height:65%" class="img" src="https://fastly.4sqi.net/img/general/600x600/40946863_bp8AONM3haK3ndjNFRhv1j3Bv6vlhsRyTZh0ur5YO4k.jpg" alt="image">
+           
+            
+           
+        </div>
+        <div class="image">
+            <img class="img" src="windsor-Gardens1.jpg" alt="image">
+            
+             
+        </div>
+
+    </div>
+            <div class="w3-row">
+                <div class="w3-half">
+                    <h2>When</h2>
+                    <p>Wedding Ceremony - 2:00pm</p>
+                    <p>Reception & Dinner - 5:00pm</p>
+                </div>
+                <div class="w3-half">
+                    <h2>Where</h2>
+                    <p>Winsor Gardens, Secundrabad</p>
+                    <p> Winsor Gardens, Secundrabad</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RSVP section -->
+    <div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+        <h1>HOPE YOU CAN MAKE IT!</h1>
+        <p class="w3-large">Kindly Respond By september, 2021</p>
+        <p class="w3-xlarge">
+            <button onclick="document.getElementById('id01').style.display='block'"
+                class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+        </p>
+    </div>
+
+    <!-- RSVP modal -->
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+            <div class="w3-container w3-white w3-center">
+                <h1 class="w3-wide">CAN YOU COME?</h1>
+                <p>We really hope you can make it.</p>
+                <form>
+                    <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+                </form>
+                <p><i>Sincerely, Chitti & Vicky</i></p>
+                <div class="w3-row">
+                    <div class="w3-half">
+                        <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                            class="w3-button w3-block w3-green">Going</button>
+                    </div>
+                    <div class="w3-half">
+                        <button onclick="document.getElementById('id01').style.display='none'" type="button"
+                            class="w3-button w3-block w3-red">Can't come</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+        <p>Powered by <a href="#"  target="_blank"
+                class="w3-hover-text-green">weddingplanners.com</a></p>
+    </footer>
+    <div class="w3-hide-small" style="margin-bottom:32px"> </div>
+
+</body>
+
+</html>
